@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h2 id="heading">Bundle & Save</h2>
+
+      <header>
+        <input
+          type="radio"
+          id="radioonepair"
+          onclick="yesnoCheck()"
+          name="pair"
+        />
+        <div id="onecontent">
+          <h4>1 Pair</h4>
+          <h4>DKK 195.00</h4>
+          <div id="common" style="display: none">
+            <div id="pairoptions">
+              <h4 id="sze">Size</h4>
+              <h4 id="clr">Colour</h4>
+            </div>
+            <div id="optionsone">
+              <h4 id="firstitem">#1</h4>
+              <select name="size" id="sizeone">
+                <option value="small">S</option>
+                <option value="medium">M</option>
+                <option value="large">L</option>
+              </select>
+              <select name="size" id="colourone">
+                <option value="red">Colour</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+              </select>
+            </div>
+            <div id="optionstwo">
+              <h4 id="seconditem">#2</h4>
+              <select name="size" id="sizetwo">
+                <option value="small">S</option>
+                <option value="medium">M</option>
+                <option value="large">L</option>
+              </select>
+              <select name="size" id="colourtwo">
+                <option value="red">Colour</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <h4 id="oneoff">50% OFF</h4>
+      </header>
+
+      <main>
+        <input
+          type="radio"
+          id="radiotwopair"
+          onclick="yesnoCheck()"
+          name="2 pair"
+          value="pair"
+        />
+        <content>
+          <div id="pairtwo">
+            <h4 id="pair">2 Pair</h4>
+            <h4 id="pairprice">DKK 345.00</h4>
+          </div>
+          <div id="commontwo" style="display: none">
+            <div id="pairoptions">
+              <h4 id="sze">Size</h4>
+              <h4 id="clr">Colour</h4>
+            </div>
+            <div id="optionsone">
+              <h4 id="firstitem">#1</h4>
+              <select name="size" id="sizeone">
+                <option value="small">S</option>
+                <option value="medium">M</option>
+                <option value="large">L</option>
+              </select>
+              <select name="size" id="colourone">
+                <option value="red">Colour</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+              </select>
+            </div>
+            <div id="optionstwo">
+              <h4 id="seconditem">#2</h4>
+              <select name="size" id="sizetwo">
+                <option value="small">S</option>
+                <option value="medium">M</option>
+                <option value="large">L</option>
+              </select>
+              <select name="size" id="colourtwo">
+                <option value="red">Colour</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+              </select>
+            </div>
+          </div>
+        </content>
+        <span id="paircutprice">DKK 195.00</span>
+        <div id="twooff">
+          <h3 id="popular">Most Popular</h3>
+          <h4 id="fourty">40% OFF</h4>
+        </div>
+      </main>
+
+      <section>
+        <input
+          type="radio"
+          id="radiothreepair"
+          onclick="yesnoCheck()"
+          name="pair"
+        />
+        <div id="threecontent">
+          <h4>3 Pair</h4>
+          <h4>DKK 528.00</h4>
+          <div id="commonthree" style="display: none">
+            <div id="pairoptions">
+              <h4 id="sze">Size</h4>
+              <h4 id="clr">Colour</h4>
+            </div>
+            <div id="optionsone">
+              <h4 id="firstitem">#1</h4>
+              <select name="size" id="sizeone">
+                <option value="small">S</option>
+                <option value="medium">M</option>
+                <option value="large">L</option>
+              </select>
+              <select name="size" id="colourone">
+                <option value="red">Colour</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+              </select>
+            </div>
+            <div id="optionstwo">
+              <h4 id="seconditem">#2</h4>
+              <select name="size" id="sizetwo">
+                <option value="small">S</option>
+                <option value="medium">M</option>
+                <option value="large">L</option>
+              </select>
+              <select name="size" id="colourtwo">
+                <option value="red">Colour</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <h4 id="threeoff">60% OFF</h4>
+      </section>
+      <div id="final">
+        <h2 id="shipping">Free 2 Day Shipping</h2>
+        <h2>Total : DKK 360.00</h2>
+      </div>
+      <button id="btn" onclick="myFunction()">+ Add to Cart</button>
+      <footer>
+        <i class="fi fi-rs-copyright" id="icon"></i>
+        Powered by Pumper
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  #container {
+    margin-left: 400px;
+    height: 748px;
+    width: 646px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  #btn {
+    width: 500px;
+    margin-left: 71px;
+    height: 48px;
+    border-radius: 4px 4px 4px 0px;
+    background: #007f61;
+    color: white;
+    font-size: large;
+  }
+  #heading {
+    position: relative;
+    max-width: 500px;
+    margin: 100px auto;
+    margin-bottom: 45px;
+    text-align: center;
+    color: green;
+  }
+  #heading:before {
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: rgb(188, 172, 172);
+  }
+  #heading:after {
+    content: " ";
+    height: 2px;
+    width: 150px;
+    background: rgb(188, 172, 172);
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+  header,section,main {
+    width: 500px;
+    height: 74.11px;
+    margin-top: 0px;
+    border-radius: 3.61px;
+    border: 0.9px;
+    border: 0.9px solid #c8c8c8;
+    margin-bottom: 12px;
+    display: flex;
+    margin-left: 71px;
+    overflow: hidden;
+  }
+  
+  #onecontent,
+  #threecontent {
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 3px;
+  }
+  #oneoff,
+  #threeoff {
+    margin-top: 28px;
+    margin-left: 350px;
+    position: absolute;
+  }
+  
+  #radioonepair,
+  #radiothreepair {
+    width: 14.46px;
+    height: 14.46px;
+    border: 0.9px;
+    margin-left: 18px;
+    margin-top: 33px;
+    margin-right: 20px;
+  }
+  Content {
+    padding: 4px;
+    padding-right: 0;
+  }
+  
+  #pairtwo {
+    margin-top: 15px;
+    font-size: 15px;
+    margin-left: 17px;
+  }
+  input[type="radio"] {
+    accent-color: #007f61;
+  }
+  #radiotwopair {
+    width: 14.46px;
+    height: 14.46px;
+    border: 0.9px;
+    margin-left: 17px;
+    margin-top: 33px;
+    margin-right: 0px;
+  }
+   radio:hover header {
+    height: 400px;
+  } 
+
+  
+  #pair {
+    margin-bottom: 3px;
+  }
+  #paircutprice {
+    margin-top: 42px;
+    font-size: 13px;
+    text-decoration: line-through;
+    color: #81928e;
+    margin-left: 190px;
+    position: absolute;
+  }
+  
+  #pairoptions {
+    display: flex;
+    flex-direction: row;
+    font-size: 8px;
+    margin-left: 17px;
+    margin-top: 12px;
+  }
+  #sze {
+    margin-right: 51px;
+  }
+  #twooff {
+    margin-top: 20px;
+    margin-left: 338px;
+    position: absolute;
+  }
+  #optionsone,
+  #optionstwo {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    margin-left: 0px;
+  }
+  #sizeone,
+  #sizetwo {
+    margin-right: 5px;
+    width: 60px;
+  }
+  #popular {
+    font-size: 15px;
+    color: green;
+  }
+  #fourty {
+    font-size: 15px;
+    margin-left: 14px;
+  }
+  #firstitem,
+  #seconditem {
+    margin: 0;
+    font-size: 11px;
+    margin-right: 5px;
+  }
+  #final {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #007F61; */
+    width: 500px;
+    font-size: 13px;
+    margin-left: 71px;
+    margin-bottom: 20px;
+  }
+  #shipping {
+    color: #007f61;
+  }
+  footer {
+    color: #000;
+    margin-left: 440px;
+    font-size: 13px;
+    margin-top: 4px;
+    font-style: italic;
+  }
+  #icon {
+    size: 0.5px;
+    margin-top: 8px;
+  }
+
+     header:hover,
+  main:hover,
+  section:hover {
+    height: 150px;
+    linear-gradient: (0deg, #f4fbf9, #f4fbf9);
+    border: 0.9px solid #007f61;
+    background-color: #f0fcf8;
+  } 
+
+
+  @media only screen and (max-width: 780px) {
+    #container {
+      margin: 30px;
+      margin-top: 20px;
+    }
+  }
+  
